@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1404 720" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e4f86"/>
+      <stop offset="0.55" stop-color="#14284a"/>
+      <stop offset="1" stop-color="#070f1f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#ff5a1f" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5a1f" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff5a1f" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffb36b" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1404" height="720" fill="url(#bg)"/>
+  <rect width="1404" height="720" fill="url(#glow)"/>
+  <!-- running track lanes curving across the frame -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3">
+    <path d="M-50 760 C 400 520, 820 470, 1460 330"/>
+    <path d="M-50 820 C 420 580, 860 540, 1460 420"/>
+    <path d="M-50 880 C 440 640, 900 610, 1460 510"/>
+    <path d="M-50 940 C 460 700, 940 680, 1460 600"/>
+    <path d="M-50 1000 C 480 760, 980 750, 1460 690"/>
+  </g>
+  <path d="M-50 790 C 410 550, 840 505, 1460 375" fill="none" stroke="url(#track)" stroke-width="10" stroke-linecap="round"/>
+  <!-- speed streaks -->
+  <g stroke-linecap="round">
+    <line x1="820" y1="210" x2="1180" y2="150" stroke="#ffffff" stroke-opacity="0.18" stroke-width="4"/>
+    <line x1="900" y1="250" x2="1300" y2="185" stroke="#ff8a5c" stroke-opacity="0.55" stroke-width="6"/>
+    <line x1="960" y1="292" x2="1250" y2="245" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3"/>
+  </g>
+  <!-- stylised ball and stopwatch shapes -->
+  <circle cx="1150" cy="470" r="120" fill="#ff5a1f" fill-opacity="0.9"/>
+  <path d="M1030 470 h240 M1150 350 v240 M1065 385 q85 85 0 170 M1235 385 q-85 85 0 170" fill="none" stroke="#070f1f" stroke-opacity="0.35" stroke-width="8"/>
+  <circle cx="1310" cy="150" r="58" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="8"/>
+  <path d="M1310 150 v-32 M1310 150 l24 14 M1298 82 h24" stroke="#ffffff" stroke-opacity="0.25" stroke-width="8" stroke-linecap="round"/>
+</svg>

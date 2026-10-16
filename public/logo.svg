@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80">
+  <rect x="4" y="8" width="64" height="64" rx="14" fill="#0b1b33"/>
+  <path d="M14 56 L30 30 L38 42 L44 34 L58 56 Z" fill="#ff5a1f"/>
+  <path d="M30 30 L34 36.5 L30 38 L26 36.5 Z" fill="#ffffff"/>
+  <text x="84" y="54" font-family="Inter, Arial, Helvetica, sans-serif" font-size="38" font-weight="900" letter-spacing="-1.5">
+    <tspan fill="#0b1b33">PEAK</tspan><tspan fill="#ff5a1f">FORM</tspan>
+  </text>
+</svg>

@@ -1,0 +1,6 @@
+﻿[
+  { "id": 1, "name": "Lena Hofmann", "initials": "LH", "avatarColor": "#2e4f86", "rating": 5, "comment": "Ordered the Velocity Pro for my half marathon training. Fit was spot on and it arrived two days later. Will definitely order again.", "date": "September 18, 2026" },
+  { "id": 2, "name": "Marco Bianchi", "initials": "MB", "avatarColor": "#ff5a1f", "rating": 5, "comment": "The adjustable dumbbells completely replaced my old rack. Great quality for the price.", "date": "September 9, 2026" },
+  { "id": 3, "name": "Aylin Demir", "initials": "AD", "avatarColor": "#0f6e74", "rating": 5, "comment": "Bought new balls and jerseys for our youth football team. Easy ordering and the team loves the gear.", "date": "August 30, 2026" },
+  { "id": 4, "name": "Jonas Weber", "initials": "JW", "avatarColor": "#3b3f46", "rating": 5, "comment": "The hiking backpack survived a full week in the Alps without a scratch. Comfortable even on long days.", "date": "August 21, 2026" }
+]
